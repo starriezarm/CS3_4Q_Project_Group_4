@@ -4,11 +4,11 @@
 
 .position1{
     display: inline-block;
-    width: 9vw;
+    width: 120px;
 }
 
 .one-linerInput{
-    width: 12vw;
+    width: 200px;
 }
 
 input, #sexMotherDIV, #support{
@@ -21,11 +21,11 @@ input, #sexMotherDIV, #support{
 }
 
 #sexLabel{
-    width: 9.2vw;
+    width: 125px;
 }
 
 #sexChoices{
-    width: 12.4vw;
+    width: 205px;
     border: 0.5px rgb(130, 130, 130) solid;
     margin-right: 0.25vw;
 }

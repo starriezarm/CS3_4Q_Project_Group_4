@@ -1,0 +1,40 @@
+.symbolRequired{
+    color:red;
+}
+
+.position1{
+    display: inline-block;
+    width: 9vw;
+}
+
+.one-linerInput{
+    width: 12vw;
+}
+
+input, #sexMotherDIV, #support{
+    margin-bottom: 1.5vh;
+}
+
+#sexMotherDIV, #supportMotherDIV, #sexLabel{
+    display: flex;
+    align-items: center;
+}
+
+#sexLabel{
+    width: 9.2vw;
+}
+
+#sexChoices{
+    width: 12.4vw;
+    border: 0.5px rgb(130, 130, 130) solid;
+    margin-right: 0.25vw;
+}
+
+.notice{
+    color: red;
+    font-style: italic;
+}
+
+#support{
+    margin-right: 0.25vw;
+}

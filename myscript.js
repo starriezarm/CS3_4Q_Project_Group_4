@@ -26,7 +26,7 @@ function submitFunction() {
             supportNOTICE.innerHTML = "required";
         } 
     } else {
-        alert("Good job!");
+        window.open("profile.html", "_self");
     }
 
     return false;

@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <div id="logo2"><img src="logo10.png" alt="logo"></div>
+        <div id="name">giftMED</div>
+        <div id="motto">Bridging the Gap in Healthcare Equipment Access</div>
+    </header>
     <main>
         <aside></aside>
         <section>
             <form onsubmit="return submitFunction()" autocomplete="off">
+                <div id="logo"><img src="logo10.png" alt="logo"></div>
+                <div id="name2">giftMED</div>
+                <h2>Sign-Up Page</h2>
                 <article>
                     <label class="position1" for="firstName">First Name <span class="symbolRequired">*</span> :</label>
                     <input type="text" class="one-linerInput" id="firstName" name="firstName" placeholder="e.g. Hayly Venice" oninput="checkFN()">
@@ -64,10 +71,19 @@
                     </div>
                 </article>
         
-                <input type="submit" value="SIGN UP">
+                <input type="submit" value="SIGN UP" id="button">
             </form>
         </section>
     </main>
+   
+    <div>
+        <div id="firstPicture"></div>
+    </div>
+
+    <footer id="footer">
+        <div id="about">About<span> giftMED</span></div>
+        <div id="copyright">@Copyright 2024 Diente - All Rights Reserved</div>
+    </footer>
 
     <script src="myscript.js"></script>
 </body>

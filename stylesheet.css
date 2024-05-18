@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .symbolRequired{
     color:red;
 }
@@ -38,3 +42,111 @@ input, #sexMotherDIV, #support{
 #support{
     margin-right: 0.25vw;
 }
+section{
+    float: right;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(90, 24, 12);
+    border-radius: 1vw;
+    width: 46vw;
+    height: 70vh;
+    right: 10vw;
+    top: 15vh;
+}
+form{
+    margin-top: 15.5vh;
+    margin-left: 12.3vw;
+    color: antiquewhite;
+}
+#button{
+    margin-left: 6vw;
+    width: 10vw;
+    border-radius: 2vw;
+    border: 0;
+    color: rgb(90, 24, 12);
+    font-weight: bolder;
+}
+#sexChoices{
+    background-color: rgb(255, 255, 255);
+    color: rgb(136, 126, 125);
+    width: 13.05vw;
+}
+#firstPicture{
+    float: left;
+    position: relative;
+    z-index: -1;
+    background-color: rgb(228, 214, 167);
+    border-radius: 1vw;
+    width: 32vw;
+    height: 70vh;
+    margin-top: 7vh;
+    margin-left: 14vw;
+}
+#logo{
+    float: left;
+    margin-left: 5.8vw;
+    margin-top: -14.3vh;
+    
+}
+h2{
+    float: left;
+    margin-left: 3.6vw;
+    margin-top: -7.5vh;
+    font-size: 2.5vw;
+}
+header{
+    background-color: rgb(46, 94, 96);
+    height: 8vh;
+}
+footer{
+    background-color: rgb(46, 94, 96);
+    position: absolute;
+    height: 8vh;
+    width: 100%;
+    bottom: 0;
+}
+#logo2{
+    float: left;
+    margin-top: 0.3vh;
+    margin-left: 2vw;
+}
+img{
+    width: 3.5vw;
+}
+#about{
+    float: left;
+    color: rgb(233, 180, 76);
+    margin-top: 2.5vh;
+    margin-left: 1vw;
+}
+#copyright{
+    float: right;
+    color: rgb(233, 180, 76);
+    margin-top: 2.5vh;
+    margin-right: 1vw;
+}
+span{
+    font-weight: bolder;
+}
+#name{
+    float: left;
+    color: rgb(233, 180, 76);
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+#motto{
+    float: left;
+    color: rgb(233, 180, 76);
+    margin-top: 2.7vh;
+    margin-left: 1vw;
+}
+#name2{
+    float: right;
+    color: rgb(233, 180, 76);
+    margin-top: -12vh;
+    margin-right: 19vw;
+    font-size: 1.2vw;
+}
+

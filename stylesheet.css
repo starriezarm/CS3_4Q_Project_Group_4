@@ -1,152 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-.symbolRequired{
-    color:red;
-}
-
-.position1{
-    display: inline-block;
-    width: 120px;
-}
-
-.one-linerInput{
-    width: 200px;
-}
-
-input, #sexMotherDIV, #support{
-    margin-bottom: 1.5vh;
-}
-
-#sexMotherDIV, #supportMotherDIV, #sexLabel{
-    display: flex;
-    align-items: center;
-}
-
-#sexLabel{
-    width: 125px;
-}
-
-#sexChoices{
-    width: 205px;
-    border: 0.5px rgb(130, 130, 130) solid;
-    margin-right: 0.25vw;
-}
-
-.notice{
-    color: red;
-    font-style: italic;
-}
-
-#support{
-    margin-right: 0.25vw;
-}
-section{
-    float: right;
-    position: absolute;
-    z-index: 1;
-    background-color: rgb(90, 24, 12);
-    border-radius: 1vw;
-    width: 46vw;
-    height: 70vh;
-    right: 10vw;
-    top: 15vh;
-}
-form{
-    margin-top: 15.5vh;
-    margin-left: 12.3vw;
-    color: antiquewhite;
-}
-#button{
-    margin-left: 6vw;
-    width: 10vw;
-    border-radius: 2vw;
-    border: 0;
-    color: rgb(90, 24, 12);
+span{
     font-weight: bolder;
-}
-#sexChoices{
-    background-color: rgb(255, 255, 255);
-    color: rgb(136, 126, 125);
-    width: 13.05vw;
-}
-#firstPicture{
-    float: left;
-    position: relative;
-    z-index: -1;
-    background-color: rgb(228, 214, 167);
-    border-radius: 1vw;
-    width: 32vw;
-    height: 70vh;
-    margin-top: 7vh;
-    margin-left: 14vw;
-}
-#logo{
-    float: left;
-    margin-left: 5.8vw;
-    margin-top: -14.3vh;
-    
-}
-h2{
-    float: left;
-    margin-left: 3.6vw;
-    margin-top: -7.5vh;
-    font-size: 2.5vw;
-}
-header{
-    background-color: rgb(46, 94, 96);
-    height: 8vh;
-}
-footer{
-    background-color: rgb(46, 94, 96);
-    position: absolute;
-    height: 8vh;
-    width: 100%;
-    bottom: 0;
-}
-#logo2{
-    float: left;
-    margin-top: 0.3vh;
-    margin-left: 2vw;
 }
 img{
     width: 3.5vw;
 }
+header{
+    background-color: #2E5E60;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+.part1{
+    color:#E4D6A7;
+}
+.part2{
+    color:#FF9292;
+}
+.part3{
+    color:#74A6E8;
+}
+#brandName1{
+    margin-left: 0.75vw;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 0.75vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#motto{
+    color: #E9B44C;
+    margin-left: 0.75vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 87vh;
+    justify-content: center;
+}
+#wholeFORM{
+    z-index: 1;
+    background-color: #9B2915;
+    border-radius: 1vw;
+    width: 43vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+#firstPicture{
+    background-color: rgb(228, 214, 167);
+    border-radius: 1vw;
+    width: 32vw;
+    height: 70vh;
+    margin-right: -150px;
+}
+form{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+#logoDIV{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #C89116
+}
+#brandName2{
+    margin-left: 0.5vh;
+}
+h2{
+    font-size: 3vw;
+    margin-bottom: 3vh;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.symbolRequired{
+    color:#FF9292;
+}
+.position1{
+    display: inline-block;
+    width: 140px;
+}
+.one-linerInput{
+    width: 200px;
+}
+input, #sexMotherDIV, #support{
+    margin-bottom: 0.5vh;
+}
+.notice{
+    color: #FF9292;
+    font-style: italic;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight: 200;
+}
+label {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+input, .sexFont, textarea{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#sexMotherDIV, #supportMotherDIV, #sexLabel{
+    display: flex;
+    align-items: center;
+}
+#sexLabel{
+    width: 145px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#pWord{
+    margin-bottom: 1.5vh;
+}
+#sexChoices{
+    width: 200px;
+    border: 0.5px rgb(130, 130, 130) solid;
+    margin-right: 0.25vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(136, 126, 125);
+}
+#support{
+    margin-right: 0.25vw;
+}
+#button{
+    margin-top: 3vh;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 2vw;
+    border: 0;
+    color: rgb(90, 24, 12);
+    font-weight: bolder;
+    background-color: #E4D6A7;
+}
+footer{
+    background-color: #2E5E60;
+    color: #E9B44C;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 100%;
+    bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#logo2{
+    margin-top: 0.3vh;
+    margin-left: 2vw;
+}
 #about{
-    float: left;
-    color: rgb(233, 180, 76);
-    margin-top: 2.5vh;
     margin-left: 1vw;
 }
 #copyright{
-    float: right;
-    color: rgb(233, 180, 76);
-    margin-top: 2.5vh;
     margin-right: 1vw;
 }
-span{
-    font-weight: bolder;
-}
-#name{
-    float: left;
-    color: rgb(233, 180, 76);
-    margin-top: 1.5vh;
-    margin-left: 1vw;
-    font-size: 2vw;
-    font-weight: bold;
-}
-#motto{
-    float: left;
-    color: rgb(233, 180, 76);
-    margin-top: 2.7vh;
-    margin-left: 1vw;
-}
-#name2{
-    float: right;
-    color: rgb(233, 180, 76);
-    margin-top: -12vh;
-    margin-right: 19vw;
-    font-size: 1.2vw;
-}
-

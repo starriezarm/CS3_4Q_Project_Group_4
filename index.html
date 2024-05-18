@@ -9,79 +9,85 @@
 <body>
     <header>
         <div id="logo2"><img src="logo10.png" alt="logo"></div>
-        <div id="name">giftMED</div>
+        <div id="brandName1">
+            <span class="part1">gi</span><span class="part2">ft</span><span class="part3">MED</span>
+        </div>
         <div id="motto">Bridging the Gap in Healthcare Equipment Access</div>
     </header>
     <main>
-        <aside></aside>
-        <section>
+        <aside id="firstPicture"></aside>
+        <section id="wholeFORM">
             <form onsubmit="return submitFunction()" autocomplete="off">
-                <div id="logo"><img src="logo10.png" alt="logo"></div>
-                <div id="name2">giftMED</div>
+                <div id="logoDIV">
+                    <div><img src="logo10.png" alt="logo"></div>
+                    <div id="brandName2">
+                        <span class="part1">gi</span><span class="part2">ft</span><span class="part3">MED</span>
+                    </div>
+                </div>
                 <h2>Sign-Up Page</h2>
-                <article>
-                    <label class="position1" for="firstName">First Name <span class="symbolRequired">*</span> :</label>
-                    <input type="text" class="one-linerInput" id="firstName" name="firstName" placeholder="e.g. Hayly Venice" oninput="checkFN()">
-                    <span class="notice" id="firstNameNOTICE"></span><br>
-                </article>
-        
-                <article>
-                    <label class="position1" for="lastName">Last Name <span class="symbolRequired">*</span> :</label>
-                    <input type="text" class="one-linerInput" id="lastName" name="lastName" placeholder="e.g. Diente" oninput="checkLN()">
-                    <span class="notice" id="lastNameNOTICE"></span><br>
-                </article>
                 
-                <article id="sexMotherDIV">
-                    <div id="sexLabel">
-                        Sex <span class="symbolRequired">*</span> :
-                    </div>
-                    <div id="sexChoices">
-                        <input type="radio" id="female" name="sex" value="Female" oninput="checkSex()">
-                        <label for="female">Female</label><br>
-                        <input type="radio" id="male" name="sex" value="Male" oninput="checkSex()">
-                        <label for="male">Male</label><br>
-                        <input type="radio" id="secret" name="sex" value="Prefer not to say" oninput="checkSex()">
-                        <label for="secret">Prefer not to say</label>
-                    </div>
-                    <span class="notice" id="secretNOTICE"></span><br>
-                </article>
-        
-                <article>
-                    <label class="position1" for="userContact">Contact Number:</label>
-                    <input type="text" class="one-linerInput" id="userContact" name="userContact" placeholder="Telephone/Cellphone No."><br>
-                </article>
-        
-                <article>
-                    <label class="position1" for="userEmail">Email <span class="symbolRequired">*</span> :</label>
-                    <input type="email" class="one-linerInput" id="userEmail" name="userEmail" placeholder="name@domain.com" oninput="checkEmail()">
-                    <span class="notice" id="userEmailNOTICE"></span><br>
-                </article>
-        
-                <article>
-                    <label class="position1" for="pWord">Password <span class="symbolRequired">*</span> :</label>
-                    <input type="password" class="one-linerInput" id="pWord" name="pWord" placeholder="Advised Strong Password" oninput="checkPWord()">
-                    <span class="notice" id="pWordNOTICE"></span><br>
-                </article>
-        
-                <article>
-                    <label for="support">Why I support this campaign? <span class="symbolRequired">*</span></label><br>
-                    <div id="supportMotherDIV">
-                        <textarea name="support" id="support" cols="42" rows="5" style="resize:none" placeholder="State your reasons for joining this campaign." oninput="checkSupport()"></textarea>
-                        <span class="notice" id="supportNOTICE"></span><br>
-                    </div>
-                </article>
+                <section id="sectionFORM">
+                    <article>
+                        <label class="position1" for="firstName">First Name <span class="symbolRequired">*</span> :</label>
+                        <input type="text" class="one-linerInput" id="firstName" name="firstName" placeholder="e.g. Hayly Venice" oninput="checkFN()">
+                        <span class="notice" id="firstNameNOTICE"></span><br>
+                    </article>
+            
+                    <article>
+                        <label class="position1" for="lastName">Last Name <span class="symbolRequired">*</span> :</label>
+                        <input type="text" class="one-linerInput" id="lastName" name="lastName" placeholder="e.g. Diente" oninput="checkLN()">
+                        <span class="notice" id="lastNameNOTICE"></span><br>
+                    </article>
+                    
+                    <article id="sexMotherDIV">
+                        <div id="sexLabel">
+                            Sex <span class="symbolRequired">*</span> :
+                        </div>
+                        <div id="sexChoices">
+                            <input type="radio" id="female" name="sex" value="Female" oninput="checkSex()">
+                            <label class="sexFont" for="female">Female</label><br>
+                            <input type="radio" id="male" name="sex" value="Male" oninput="checkSex()">
+                            <label class="sexFont" for="male">Male</label><br>
+                            <input type="radio" id="secret" name="sex" value="Prefer not to say" oninput="checkSex()">
+                            <label class="sexFont" for="secret">Prefer not to say</label>
+                        </div>
+                        <span class="notice" id="secretNOTICE"></span><br>
+                    </article>
+            
+                    <article>
+                        <label class="position1" for="userContact">Contact Number:</label>
+                        <input type="text" class="one-linerInput" id="userContact" name="userContact" placeholder="Telephone/Cellphone No."><br>
+                    </article>
+            
+                    <article>
+                        <label class="position1" for="userEmail">Email <span class="symbolRequired">*</span> :</label>
+                        <input type="email" class="one-linerInput" id="userEmail" name="userEmail" placeholder="name@domain.com" oninput="checkEmail()">
+                        <span class="notice" id="userEmailNOTICE"></span><br>
+                    </article>
+            
+                    <article>
+                        <label class="position1" for="pWord">Password <span class="symbolRequired">*</span> :</label>
+                        <input type="password" class="one-linerInput" id="pWord" name="pWord" placeholder="Advised Strong Password" oninput="checkPWord()">
+                        <span class="notice" id="pWordNOTICE"></span><br>
+                    </article>
+            
+                    <article>
+                        <label for="support">Why I support this campaign? <span class="symbolRequired">*</span></label><br>
+                        <div id="supportMotherDIV">
+                            <textarea name="support" id="support" cols="46" rows="3" style="resize:none" placeholder="State your reasons for joining this campaign." oninput="checkSupport()"></textarea>
+                            <span class="notice" id="supportNOTICE"></span><br>
+                        </div>
+                    </article>
+                </section>
         
                 <input type="submit" value="SIGN UP" id="button">
             </form>
         </section>
     </main>
-   
-    <div>
-        <div id="firstPicture"></div>
-    </div>
-
     <footer id="footer">
-        <div id="about">About<span> giftMED</span></div>
+        <div id="about">About<span>
+            <span class="part1">gi</span><span class="part2">ft</span><span class="part3">MED</span>
+        </span></div>
         <div id="copyright">@Copyright 2024 Diente - All Rights Reserved</div>
     </footer>
 

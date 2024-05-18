@@ -6,23 +6,25 @@ function submitFunction() {
     var userPWORD = document.getElementById("pWord").value;
     var userSupport = document.getElementById("support").value;
     
-    if (firstName == ""){
-        firstNameNOTICE.innerHTML = "required";
-    }
-    if(lastName == ""){
-        lastNameNOTICE.innerHTML = "required";
-    }
-    if(userSex == ""){
-        secretNOTICE.innerHTML = "required";
-    }
-    if(userEmail == ""){
-        userEmailNOTICE.innerHTML = "required";
-    }
-    if(userPWORD == ""){
-        pWordNOTICE.innerHTML = "required";
-    } 
-    if(userSupport==""){
-        supportNOTICE.innerHTML = "required";
+    if((firstName == "")||(lastName == "")||(userSex == "")||(userEmail == "")||(userPWORD == "")||(userSupport=="")){
+        if (firstName == ""){
+            firstNameNOTICE.innerHTML = "required";
+        }
+        if(lastName == ""){
+            lastNameNOTICE.innerHTML = "required";
+        }
+        if(userSex == ""){
+            secretNOTICE.innerHTML = "required";
+        }
+        if(userEmail == ""){
+            userEmailNOTICE.innerHTML = "required";
+        }
+        if(userPWORD == ""){
+            pWordNOTICE.innerHTML = "required";
+        } 
+        if(userSupport==""){
+            supportNOTICE.innerHTML = "required";
+        } 
     } else {
         alert("Good job!");
     }

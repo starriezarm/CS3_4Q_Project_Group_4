@@ -8,19 +8,28 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body onload="output()">
     <header>
-        <div id="logo2"><img src="logo10.png" alt="logo"></div>
+        <div id="brandLogo"><img src="logo10.png" alt="logo"></div>
         <div id="brandName1">
             <span class="part1">gi</span><span class="part2">ft</span><span class="part3">MED</span>
         </div>
         <div id="motto">Bridging the Gap in Healthcare Equipment Access</div>
     </header>
+    <main id="profilePage">
+        <p>First Name: <span id="outputFN"></span></p>
+        <p>Last Name: <span id="outputLN"></span></p>
+        <p>Sex: <span id="outputSex"></span></p>
+        <p>Email: <span id="outputEmail"></span></p>
+        <p>Support: <span id="outputSupport"></span></p>
+    </main>
     <footer id="footer">
         <div id="about">About<span>
             <span class="part1">gi</span><span class="part2">ft</span><span class="part3">MED</span>
         </span></div>
         <div id="copyright">@Copyright 2024 Diente - All Rights Reserved</div>
     </footer>
+
+    <script src="myscript.js"></script>
 </body>
 </html>

@@ -1,38 +1,60 @@
-function submitFunction() {
-    var firstName = document.getElementById("firstName").value;
-    var lastName = document.getElementById("lastName").value;
-    var userSex = choiceSex();
-    var userEmail = document.getElementById("userEmail").value;
+function submitInput() {
+    var userFN = document.getElementById("firstName").value;
+    var userLN = document.getElementById("lastName").value;
+    var userSex = sexChoice();
+    var userEmail = document.getElementById("email").value;
     var userPWORD = document.getElementById("pWord").value;
-    var userSupport = document.getElementById("support").value;
+    var userSupport = document.getElementById("supportText").value;
     
-    if((firstName == "")||(lastName == "")||(userSex == "")||(userEmail == "")||(userPWORD == "")||(userSupport=="")){
-        if (firstName == ""){
-            firstNameNOTICE.innerHTML = "required";
+    if((userFN == "")||(userLN == "")||(userSex == "")||(userEmail == "")||(userPWORD == "")||(userSupport=="")){
+        if(userFN == ""){
+            document.getElementById("FNrequired").innerHTML = "required";
         }
-        if(lastName == ""){
-            lastNameNOTICE.innerHTML = "required";
+        if(userLN == ""){
+            document.getElementById("LNrequired").innerHTML = "required";
         }
         if(userSex == ""){
-            secretNOTICE.innerHTML = "required";
+            document.getElementById("SEXrequired").innerHTML = "required";
         }
         if(userEmail == ""){
-            userEmailNOTICE.innerHTML = "required";
+            document.getElementById("EMAILrequired").innerHTML = "required";
         }
         if(userPWORD == ""){
-            pWordNOTICE.innerHTML = "required";
+            document.getElementById("PWORDrequired").innerHTML = "required";
         } 
-        if(userSupport==""){
-            supportNOTICE.innerHTML = "required";
+        if(userSupport == ""){
+            document.getElementById("SUPPORTrequired").innerHTML = "required";
         } 
     } else {
+        localStorage.setItem("storeFN", userFN);
+        localStorage.setItem("storeLN", userLN);
+        localStorage.setItem("storeSex", userSex);
+        localStorage.setItem("storeEmail", userEmail);
+        localStorage.setItem("storeSupport", userSupport);
+
         window.open("profile.html", "_self");
     }
+    
+    return false;
+}
+
+function output(){
+    var userFN = localStorage.getItem("storeFN");
+    var userLN = localStorage.getItem("storeLN");
+    var userSex = localStorage.getItem("storeSex");
+    var userEmail = localStorage.getItem("storeEmail");
+    var userSupport = localStorage.getItem("storeSupport");
+
+    document.getElementById("outputFN").innerHTML += userFN;
+    document.getElementById("outputLN").innerHTML += userLN;
+    document.getElementById("outputSex").innerHTML += userSex;
+    document.getElementById("outputEmail").innerHTML += userEmail;
+    document.getElementById("outputSupport").innerHTML += userSupport;
 
     return false;
 }
 
-function choiceSex(){
+function sexChoice(){
     var sex="";
     var sexChoice = document.getElementsByName("sex");
     for (var counter=0; counter<sexChoice.length; counter++){
@@ -45,25 +67,25 @@ function choiceSex(){
 }
 
 function checkFN(){
-    firstNameNOTICE.innerHTML="";
+    document.getElementById("FNrequired").innerHTML="";
 }
 
 function checkLN(){
-    lastNameNOTICE.innerHTML = "";
+    document.getElementById("LNrequired").innerHTML = "";
 }
 
 function checkSex(){
-    secretNOTICE.innerHTML = "";
+    document.getElementById("SEXrequired").innerHTML = "";
 }
 
 function checkEmail(){
-    userEmailNOTICE.innerHTML = "";
+    document.getElementById("EMAILrequired").innerHTML = "";
 }
 
 function checkPWord(){
-    pWordNOTICE.innerHTML = "";
+    document.getElementById("PWORDrequired").innerHTML = "";
 }
 
 function checkSupport(){
-    supportNOTICE.innerHTML = "";
+    document.getElementById("SUPPORTrequired").innerHTML = "";
 }

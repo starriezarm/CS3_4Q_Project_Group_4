@@ -172,3 +172,139 @@ footer{
 #copyright{
     margin-right: 1vw;
 }
+#cover{
+    background-color: #E9B44C;
+    height: 46vh;
+}
+#profilePage{
+    float: left;
+    position: relative;
+    align-items: center;
+    border-radius: 3vw;
+    height: 59vh;
+    width: 40vw;
+    margin-left: 7vw;
+    margin-top: -30vh;
+    background-color: #9B2915;
+    color: #E9B44C;
+}
+#smallpic{
+    background-color: gray;
+    position: relative;
+    border-radius: 50%;
+    width: 13vw;
+    height: 26vh;
+    float: left;
+    margin-top: -43vh;
+    margin-left: 10vw;
+    z-index: 3;
+}
+#outputSupport{
+    float: left;
+    position: absolute;
+    text-align: left;
+    left: 5vw;
+    top: 45.5vh;
+    font-size: x-large;
+    text-align: left;
+}
+#outputLN{
+    float: right;
+    position: absolute;
+    top: 7vh;
+    left: 18vw;
+    font-size: xx-large;
+    text-align: left;
+}
+#outputFN{
+    float: right;
+    position: absolute;
+    top: 11vh;
+    left: 18vw;
+    font-size: xx-large;
+    text-align: left;
+}
+#outputSex{
+    float: right;
+    position: absolute;
+    top: 17vh;
+    left: 18vw;
+    text-align: left;
+}
+#outputEmail{
+    float: right;
+    position: absolute;
+    top: 20vh;
+    left: 18vw;
+    text-align: left;
+}
+#line{
+    float: left;
+    position: absolute;
+    left: 4vw;
+    top: 44.3vh;
+    height: 7vh;
+    color: #E4D6A7;
+    background-color: #E4D6A7;
+}
+#profile{
+    float: right;
+    position: relative;
+    color: #2E5E60;
+    margin-top: -40vh;
+    margin-right: 3vw;
+    font-size: xxx-large;
+    font-weight: 1000;
+}
+#campaign{
+    float: right;
+    position: relative;
+    color: #2E5E60;
+    font-weight: bold;
+    margin-top: -30vh;
+    margin-right: 3vw;
+}
+#campaign1{
+    float:right;
+    position: relative;
+    color: #2E5E60;
+    margin-top: -28vh;
+    margin-right: 3vw;
+    width: 45vw;
+    text-align: right;
+}
+#mission{
+    float: right;
+    position: relative;
+    color: #9B2915;
+    font-weight: bold;
+    margin-top: -4vh;
+    margin-right: 3vw;
+}
+#mission1{
+    float: right;
+    position: relative;
+    color: #9B2915;
+    margin-top: -2vh;
+    margin-right: 3vw;
+    width: 45vw;
+    text-align: right;
+}
+#vision{
+    float: right;
+    position: relative;
+    color: #E9B44C;
+    font-weight: bold;
+    margin-top: 11vh;
+    margin-right: 3vw;
+}
+#vision1{
+    float: right;
+    position: relative;
+    color: #E9B44C;
+    margin-top: 0vh;
+    margin-right: 3vw;
+    width: 45vw;
+    text-align: right;
+}
+

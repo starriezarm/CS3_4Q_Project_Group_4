@@ -46,7 +46,7 @@ function output(){
     var userSupport = localStorage.getItem("storeSupport");
 
     document.getElementById("outputFN").innerHTML += userFN;
-    document.getElementById("outputLN").innerHTML += userLN;
+    document.getElementById("outputLN").innerHTML += userLN + ", ";
     document.getElementById("outputSex").innerHTML += userSex;
     document.getElementById("outputEmail").innerHTML += userEmail;
     document.getElementById("outputSupport").innerHTML += userSupport;

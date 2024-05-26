@@ -85,15 +85,16 @@ header{
     color: antiquewhite;
     flex-direction: column;
     align-items: center; 
+    box-shadow: 8px 8px 4px lightcyan;
 }
 #sidePicDIV{
-    background-color: rgb(228, 214, 167);
     border-radius: 1vw;
     width: 32vw;
     height: 70vh;
     margin-right: -150px;
     object-fit: cover;
     overflow: hidden;
+    box-shadow: 8px 8px 4px lightcyan;
 }
 #sidePicDIV img{
     width: 100%;

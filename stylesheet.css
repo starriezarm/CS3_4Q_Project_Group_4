@@ -1,47 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+*{ /* General styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
-body{
-    overflow: hidden;
+body{ 
+    overflow: hidden; /* Prevents scrollbars */
 }
 span{
-    font-weight: bolder;
+    font-weight: bolder; /* Set font weight */
 }
 img{
-    width: 3.5vw;
+    width: 3.5vw; /* Sets image width to 3.5% of viewport width */
 }
-header{
-    background-color: #2E5E60;
-    height: 8vh;
-    display: flex;
-    align-items: center;
+header{ /* Header styles */
+    background-color: #2E5E60; /* Sets background color */
+    height: 8vh; /* Sets height to 8% of viewport height */
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Centers content vertically */
 }
-.part1{
-    color:#E4D6A7;
+.part1{ 
+    color:#E4D6A7; /* Sets text color */
 }
 .part2{
-    color:#FF9292;
+    color:#FF9292; /* Sets text color */
 }
 .part3{
-    color:#74A6E8;
+    color:#74A6E8; /* Sets text color */
 }
 #brandName1{
-    margin-left: 0.75vw;
-    font-size: 2vw;
-    font-weight: bold;
-    margin-left: 0.75vw;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+    margin-left: 0.75vw; /* Sets margin to 0.75% of viewport width */
+    font-size: 2vw; /* Sets font size to 2% of viewport width */
+    font-weight: bold; /* Makes text bold */
+    margin-left: 0.75vw; /* Adds some extra margin */
+    font-family: "Montserrat", sans-serif; /* Sets font family */
+    font-optical-sizing: auto; /* Enables optical sizing */
+    font-style: normal;  /* Sets text style to normal */
 }
 #motto{
-    color: #E9B44C;
-    margin-left: 0.75vw;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    color: #E9B44C; /* Sets text color */
+    margin-left: 0.75vw; /* Sets margin to 0.75% of viewport width */
+    font-family: "Poppins", sans-serif; /* Sets font family */
+    font-weight: 700; /* Sets font weight to 700 */
+    font-style: italic; /* Sets text style to italic */
 }
 #sign-upPage{
     display: flex;

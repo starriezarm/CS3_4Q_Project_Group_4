@@ -9,87 +9,87 @@
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div id="brandLogo"><img src="logo10.png" alt="logo"></div>
-        <div id="brandName1">
+    <header> <!--Header-->
+        <div id="brandLogo"><img src="logo10.png" alt="logo"></div> <!-- Logo image -->
+        <div id="brandName1">  <!-- Brand name styled with different parts -->
             <span class="part1">gi</span><span class="part2">ft</span><span class="part3">MED</span>
         </div>
-        <div id="motto">Bridging the Gap in Healthcare Equipment Access</div>
+        <div id="motto">Bridging the Gap in Healthcare Equipment Access</div> <!-- Brand motto -->
     </header>
-    <main id="sign-upPage">
-        <img id="bgSign-up" src="bg1.jpg" alt="">
-        <aside id="sidePicDIV"><img src="asidePic.png" alt=""></aside>
-        <section>
-            <form id="userForm" onsubmit="return submitInput()">
-                <div id="logoDIV">
-                    <div><img src="logo10.png" alt="logo"></div>
-                    <div id="brandName2">
+    <main id="sign-upPage"> <!-- Main content section for the sign-up page -->
+        <img id="bgSign-up" src="bg1.jpg" alt=""> <!-- Background image for the sign-up section -->
+        <aside id="sidePicDIV"><img src="asidePic.png" alt=""></aside> <!-- Side image for additional visual content -->
+        <section> <!-- Form section where users input their details -->
+            <form id="userForm" onsubmit="return submitInput()"> <!-- Form with ID and submit action -->
+                <div id="logoDIV"> <!-- Logo and brand name inside the form -->
+                    <div><img src="logo10.png" alt="logo"></div> <!-- Logo -->
+                    <div id="brandName2"> <!-- Brand name styled with different parts -->
                         <span class="part1">gi</span><span class="part2">ft</span><span class="part3">MED</span>
                     </div>
                     </div>
-                    <h2>Sign-Up Page</h2>
+                    <h2>Sign-Up Page</h2>  <!-- Form heading -->
                 
-                    <section>
-                        <article>
-                            <label class="inputText" for="firstName">First Name <span class="requiredSymbol">*</span> :</label>
-                            <input type="text" class="one-linerInput" id="firstName" name="firstName" placeholder="e.g. Hayly Venice" oninput="checkFN()">
-                            <span class="requiredFields" id="FNrequired"></span><br>
+                    <section> <!-- Section containing form fields -->
+                        <article> <!-- First name input field with label and validation -->
+                            <label class="inputText" for="firstName">First Name <span class="requiredSymbol">*</span> :</label> <!-- Label for the first name input field, with a required symbol -->
+                            <input type="text" class="one-linerInput" id="firstName" name="firstName" placeholder="e.g. Hayly Venice" oninput="checkFN()"> <!-- Input field for the first name, with an example placeholder and an oninput event to validate the input -->
+                            <span class="requiredFields" id="FNrequired"></span><br> <!-- Span to display validation messages for the first name field -->
                         </article>
             
-                        <article>
-                            <label class="inputText" for="lastName">Last Name <span class="requiredSymbol">*</span> :</label>
-                            <input type="text" class="one-linerInput" id="lastName" name="lastName" placeholder="e.g. Diente" oninput="checkLN()">
-                            <span class="requiredFields" id="LNrequired"></span><br>
+                        <article> <!-- Last name input field with label and validation -->
+                            <label class="inputText" for="lastName">Last Name <span class="requiredSymbol">*</span> :</label> <!-- Label for the last name input field, with a required symbol -->
+                            <input type="text" class="one-linerInput" id="lastName" name="lastName" placeholder="e.g. Diente" oninput="checkLN()">  <!-- Input field for the last name, with an example placeholder and an oninput event to validate the input -->
+                            <span class="requiredFields" id="LNrequired"></span><br> <!-- Span to display validation messages for the last name field -->
                         </article>
                     
-                        <article id="sexMotherDIV">
-                            <div id="sexLabel">Sex <span class="requiredSymbol">*</span> :</div>
-                            <div id="sexChoices">
-                                <input type="radio" id="female" name="sex" value="Female" oninput="checkSex()">
-                                <label for="female">Female</label><br>
-                                <input type="radio" id="male" name="sex" value="Male" oninput="checkSex()">
-                                <label for="male">Male</label><br>
-                                <input type="radio" id="secret" name="sex" value="Prefer not to say" oninput="checkSex()">
-                                <label for="secret">Prefer not to say</label>
+                        <article id="sexMotherDIV"> <!-- Sex selection with radio buttons and validation -->
+                            <div id="sexLabel">Sex <span class="requiredSymbol">*</span> :</div> <!-- Label for the sex selection, with a required symbol -->
+                            <div id="sexChoices"> <!-- Div containing the radio buttons for sex selection -->
+                                <input type="radio" id="female" name="sex" value="Female" oninput="checkSex()"> <!-- Radio button for selecting Female, with an oninput event to validate the selection -->
+                                <label for="female">Female</label><br> <!-- Label for the Female radio button -->
+                                <input type="radio" id="male" name="sex" value="Male" oninput="checkSex()"> <!-- Radio button for selecting Male, with an oninput event to validate the selection -->
+                                <label for="male">Male</label><br> <!-- Label for the Male radio button -->
+                                <input type="radio" id="secret" name="sex" value="Prefer not to say" oninput="checkSex()"> <!-- Radio button for selecting "Prefer not to say", with an oninput event to validate the selection -->
+                                <label for="secret">Prefer not to say</label> <!-- Label for the "Prefer not to say" radio button -->
                             </div>
-                            <span class="requiredFields" id="SEXrequired"></span><br>
+                            <span class="requiredFields" id="SEXrequired"></span><br> <!-- Span to display validation messages for the sex selection -->
                         </article>
             
-                        <article>
-                            <label class="inputText" for="userContact">Contact Number:</label>
-                            <input type="text" class="one-linerInput" id="userContact" name="userContact" placeholder="Telephone/Cellphone No."><br>
+                        <article> <!-- Contact number input field -->
+                            <label class="inputText" for="userContact">Contact Number:</label> <!-- Label for the contact number input field -->
+                            <input type="text" class="one-linerInput" id="userContact" name="userContact" placeholder="Telephone/Cellphone No."><br> <!-- Input field for the contact number, with an example placeholder -->
                         </article>
             
-                        <article>
-                            <label class="inputText" for="email">Email <span class="requiredSymbol">*</span> :</label>
-                            <input type="email" class="one-linerInput" id="email" name="email" placeholder="name@domain.com" oninput="checkEmail()" autocomplete="on">
-                            <span class="requiredFields" id="EMAILrequired"></span><br>
+                        <article> <!-- Email input field with label and validation -->
+                            <label class="inputText" for="email">Email <span class="requiredSymbol">*</span> :</label>  <!-- Label for the email input field, with a required symbol -->
+                            <input type="email" class="one-linerInput" id="email" name="email" placeholder="name@domain.com" oninput="checkEmail()" autocomplete="on">  <!-- Input field for the email, with an example placeholder, autocomplete feature, and an oninput event to validate the input -->
+                            <span class="requiredFields" id="EMAILrequired"></span><br>  <!-- Span to display validation messages for the email field -->
                         </article>
             
-                        <article>
-                            <label class="inputText" for="pWord">Password <span class="requiredSymbol">*</span> :</label>
-                            <input type="password" class="one-linerInput" id="pWord" name="pWord" placeholder="Advised Strong Password" oninput="checkPWord()">
-                            <span class="requiredFields" id="PWORDrequired"></span><br>
+                        <article> <!-- Password input field with label and validation -->
+                            <label class="inputText" for="pWord">Password <span class="requiredSymbol">*</span> :</label> <!-- Label for the password input field, with a required symbol -->
+                            <input type="password" class="one-linerInput" id="pWord" name="pWord" placeholder="Advised Strong Password" oninput="checkPWord()">  <!-- Input field for the password, with an example placeholder and an oninput event to validate the input -->
+                            <span class="requiredFields" id="PWORDrequired"></span><br>  <!-- Span to display validation messages for the password field -->
                         </article>
             
-                        <article>
-                            <label for="supportText">Why I support this campaign? <span class="requiredSymbol">*</span></label><br>
-                            <div id="supportMotherDIV">
-                                <textarea name="supportText" id="supportText" cols="46" rows="3" style="resize:none" placeholder="State your reasons for joining this campaign." oninput="checkSupport()"></textarea>
-                                <span class="requiredFields" id="SUPPORTrequired"></span><br>
+                        <article> <!-- Text area for user support reasons with label and validation -->
+                            <label for="supportText">Why I support this campaign? <span class="requiredSymbol">*</span></label><br> <!-- Label for the support text area, with a required symbol -->
+                            <div id="supportMotherDIV">  <!-- Div containing the text area for the support reasons -->
+                                <textarea name="supportText" id="supportText" cols="46" rows="3" style="resize:none" placeholder="State your reasons for joining this campaign." oninput="checkSupport()"></textarea>  <!-- Text area for entering the support reasons, with an example placeholder and an oninput event to validate the input -->
+                                <span class="requiredFields" id="SUPPORTrequired"></span><br> <!-- Span to display validation messages for the support reasons text area -->
                             </div>
                         </article>
                     </section>
         
-                <input type="submit" value="SIGN UP" id="button">
+                <input type="submit" value="SIGN UP" id="button"> <!-- Submit button for the form -->
             </form>
         </section>
     </main>
-    <footer id="footer">
-        <div id="about">About<span>
+    <footer id="footer"> <!-- Footer section with additional information -->
+        <div id="about">About<span> <!-- About section with brand name -->
             <span class="part1">gi</span><span class="part2">ft</span><span class="part3">MED</span>
         </span></div>
-        <div id="copyright">@Copyright 2024 Diente - All Rights Reserved</div>
+        <div id="copyright">@Copyright 2024 Diente - All Rights Reserved</div> <!-- Copyright information -->
     </footer>
 
     <script src="myscript.js"></script>

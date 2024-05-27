@@ -57,7 +57,7 @@ function output(){
     document.getElementById("outputLN").innerHTML += userLN + ", "; // Display last name
     document.getElementById("outputSex").innerHTML += userSex; // Display sex
     document.getElementById("outputEmail").innerHTML += userEmail; // Display email
-    document.getElementById("outputSupport").innerHTML += userSupport; // Display support text
+    document.getElementById("outputSupport").innerHTML += '"' + userSupport + '"'; // Display support text
 
     return false; // Prevent default action
 }

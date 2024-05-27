@@ -44,313 +44,339 @@ header{ /* Header styles */
     font-style: italic; /* Sets text style to italic */
 }
 #sign-upPage{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 86vh;
-    justify-content: center;
-    object-fit: cover;
+    display: flex; /* The display property is set to flex, which allows for flexible box layout */
+    align-items: center; /* The align-items property is set to center, which centers the items along the cross axis */
+    width: 100%; /* The width property is set to 100%, which means it takes up the full width of the viewport */
+    height: 86vh; /* The height property is set to 86vh, which means it takes up 86% of the viewport height */
+    justify-content: center; /* The justify-content property is set to center, which centers the items along the main axis */
+    object-fit: cover; /* It covers the element's area with the image */
 }
 #bgSign-up{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    filter: blur(3px);
+    position: absolute; /* The position property is set to absolute, which positions the element relative to its nearest positioned ancestor */
+    width: 100%; /* The width is set to 100%, which means it takes up the full width of the viewport */
+    height: 100%; /* The height is set to 100%, which means it takes up the full height of the viewport */
+    z-index: -2; /* The z-index property is set to -2, which means it is behind other elements with higher z-index values */
+    filter: blur(3px);  /* The filter property is set to blur(3px), which applies a blur effect to the element */
 }
 #profile{
-    background-color: aliceblue;
-    width: 100%;
-    height: 86vh;
+    background-color: aliceblue; /* The background-color property is set to aliceblue */
+    width: 100%; /* The width is set to 100%, which means it takes up the full width of the viewport */
+    height: 86vh; /* The height set to 86vh, which means it takes up 86% of the viewport height */
 }
 #bgProfile {
-    position: absolute;
-    width: 100%;
+    position: absolute; /* The position property is set to absolute, which positions the element relative to its nearest positioned ancestor */
+    width: 100%; /* The width and height properties are set to 100%, which means it takes up the full width and height of the viewport */
     height: 100%;
-    z-index: 0;
+    z-index: 0; /* The z-index property is set to 0 */
 }
 #bgProfile img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  /* styles for the background profile image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures that the image fits perfectly within its container */
 }
 #userForm{
-    z-index: 1;
-    background-color: #9B2915;
-    border-radius: 1vw;
-    width: 43vw;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    color: antiquewhite;
-    flex-direction: column;
-    align-items: center; 
-    box-shadow: 8px 8px 4px lightcyan;
-}
-#sidePicDIV{
-    border-radius: 1vw;
-    width: 32vw;
-    height: 70vh;
-    margin-right: -150px;
-    object-fit: cover;
-    overflow: hidden;
-    box-shadow: 8px 8px 4px lightcyan;
-}
-#sidePicDIV img{
-    width: 100%;
-    height: 100%;
-}
-#logoDIV{
-    display: flex;
-    align-items: center;
-    margin-top: 0.25vh;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    color: #C89116
-}
-#brandName2{
-    margin-left: 0.5vh;
-}
-h2{
-    font-size: 3vw;
-    margin-bottom: 3vh;
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.requiredSymbol{
-    color:#FF9292;
-}
-.inputText{
-    display: inline-block;
-    width: 140px;
-}
-.one-linerInput{
-    width: 200px;
-}
-input, #sexMotherDIV, #support{
-    margin-bottom: 0.5vh;
-}
-.requiredFields{
-    color: #FF9292;
-    font-style: italic;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: italic;
-    font-weight: 200;
-}
-label {
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-input, textarea{
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-#sexMotherDIV, #supportMotherDIV, #sexLabel{
-    display: flex;
-    align-items: center;
-}
-#sexLabel{
-    width: 145px;
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-#pWord{
-    margin-bottom: 1.5vh;
-}
-#sexChoices{
-    width: 200px;
-    border: 0.5px rgb(130, 130, 130) solid;
-    margin-right: 0.25vw;
-    background-color: rgb(255, 255, 255);
-    color: rgb(136, 126, 125);
-}
-#support{
-    margin-right: 0.25vw;
-}
-#button{
-    position: relative;
-    margin-top: 3vh;
-    width: 8vw;
-    height: 3vh;
-    border-radius: 2vw;
-    border: 0;
-    color: rgb(90, 24, 12);
-    font-weight: bolder;
-    background-color: #E4D6A7;
-    transition: 1s ease-out;
-}
-#button:hover{
-    width: 8.5vw;
-    height: 3.5vh;
-    font-size: 1.1vw;
-    transition: 0.5s ease-in;
-    color: antiquewhite;
-    background-color: #E9B44C;
-}
-footer{
-    background-color: #2E5E60;
-    color: #E9B44C;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 6vh;
-    width: 100%;
-    bottom: 0;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-#brandLogo{
-    margin-top: 0.3vh;
-    margin-left: 2vw;
-}
-#about{
-    margin-left: 1vw;
-}
-#copyright{
-    margin-right: 1vw;
-}
-#cover{
-    position: absolute;
-    background-color: #E9B44C;
-    height: 60vh;
-    width: 100%;
-    opacity: .70;
-}
-#profileSection{
-    float: left;
-    position: relative;
-    align-items: center;
-    border-radius: 3vw;
-    height: 59vh;
-    width: 40vw;
-    margin-left: 7vw;
-    margin-top: 15vh;
-    background-color: #9B2915;
-    color: #E9B44C;
-}
-#smallpic{
-    background-color: gray;
-    position: absolute;
-    left: 3vw;
-    top: -9vh;
-    border-radius: 50%;
-    width: 12vw;
-    height: 24vh;
-    float: left;
-    z-index: 3;
-    object-fit: cover;
-}
-#smallpic img{
-    width: 100%;
-    height: 100%;
-}
-#outputSupport{
-    float: left;
-    position: absolute;
-    text-align: left;
-    left: 5vw;
-    top: 40vh;
-    font-size:large;
-    text-align: left;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-}
-#outputLN, #outputFN{
-    font-family: "Oswald", sans-serif;
-    font-size: 2.75vw;
-}
-#outputLN{
-    float: right;
-    position: absolute;
-    top: 7vh;
-    left: 17vw;
-    text-align: left;
-}
-#outputFN{
-    float: right;
-    position: absolute;
-    top: 13vh;
-    left: 17vw;
-    text-align: left;
-}
-#outputSex{
-    float: right;
-    position: absolute;
-    top: 22vh;
-    left: 17vw;
-    text-align: left;
-    font-style: italic;
-    font-family: "Poppins", sans-serif;
-}
-#outputEmail{
-    float: right;
-    position: absolute;
-    top: 25vh;
-    left: 17vw;
-    text-align: left;
-    font-style: italic;
-    text-decoration: underline;
-    font-family: "Poppins", sans-serif;
-}
-#line{
-    position: absolute;
-    left: 4vw;
-    top: 38.5vh;
-    height: 7vh;
-    color: #E4D6A7;
-    background-color: #E4D6A7;
-}
-#profileHeader{
-    color: #2E5E60;
-    margin-top: 3.5vh;
-    font-weight: 1000;
-    font-size: 4.5vw;
-}
-#campaign, #mission, #vision{
-    font-family: "Roboto", sans-serif;
-}
-#campaignText, #missionText, #visionText{
-    font-family: "Roboto Condensed", sans-serif;
-}
-#websiteDetails{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    z-index: 15;
-    text-align: right;
-    margin-right: 3vw;
-    width: 45vw;
-}
-#campaign{
-    color: #2E5E60;
-    font-weight: bold;
-    margin-top: 1vh;
-}
-#campaignText{
-    color: #2E5E60;
-}
-#mission{
-    color: #9B2915;
-    font-weight: bold;
-    margin-top: 4.5vh;
-}
-#missionText{
-    color: #9B2915;
-}
-#vision{
-    color: #E9B44C;
-    font-weight: bold;
-    margin-top: 5vh;
-}
-#visionText{
-    color: #E9B44C;
+  /* styles for the user form container */
+  z-index: 1; /* ensures that the user form appears in front of the background image */
+  background-color: #9B2915;
+  border-radius: 1vw; /* gives the container rounded corners */
+  width: 43vw;
+  height: 70vh;
+  display: flex; /* enables flexbox layout */
+  justify-content: center; /* centers the content horizontally */
+  color: antiquewhite;
+  flex-direction: column; /* stacks the content vertically */
+  align-items: center; /* centers the content vertically */
+  box-shadow: 8px 8px 4px lightcyan; /* adds a shadow to the container */
 }
 
+#sidePicDIV{
+  /* styles for the side picture container */
+  border-radius: 1vw; /* gives the container rounded corners */
+  width: 32vw;
+  height: 70vh;
+  margin-right: -150px; /* moves the container to the left */
+  object-fit: cover; /* ensures that the image fits perfectly within its container */
+  overflow: hidden; /* hides any overflowing content */
+  box-shadow: 8px 8px 4px lightcyan; /* adds a shadow to the container */
+}
+#sidePicDIV img{
+  /* styles for the side picture image */
+  width: 100%;
+  height: 100%;
+}
+#logoDIV{
+  /* styles for the logo container */
+  display: flex; /* enables flexbox layout */
+  align-items: center; /* centers the content vertically */
+  margin-top: 0.25vh; /* adds some space above the container */
+  font-family: "Montserrat", sans-serif; /* sets the font family */
+  font-weight: bold; /* sets the font weight */
+  color: #C89116 /* sets the text color */
+}
+
+#brandName2{
+  /* styles for the second part of the brand name */
+  margin-left: 0.5vh; /* adds some space to the left of the text */
+}
+
+h2{
+  /* styles for the form title */
+  font-size: 3vw; /* sets the font size */
+  margin-bottom: 3vh; /* adds some space below the title */
+  font-family: "Abril Fatface", serif; /* sets the font family */
+  font-weight: 400; /* sets the font weight */
+  font-style: normal; /* sets the font style */
+}
+
+.requiredSymbol{
+  /* styles for the required symbol */
+  color:#FF9292; /* sets the text color */
+}
+
+.inputText{
+  /* styles for the input text container */
+  display: inline-block; /* enables inline layout */
+  width: 140px; /* sets the width of the container */
+}
+
+.one-linerInput{
+  /* styles for the one-liner input container */
+  width: 200px; /* sets the width of the container */
+}
+
+input, #sexMotherDIV, #support{
+  /* styles for the input fields */
+  margin-bottom: 0.5vh; /* adds some space below the input fields */
+}
+
+.requiredFields{
+  /* styles for the required fields */
+  color: #FF9292; /* sets the text color */
+  font-style: italic; /* sets the font style */
+  font-family: "Raleway", sans-serif; /* sets the font family */
+  font-optical-sizing: auto; /* sets the font optical sizing */
+  font-style: italic; /* sets the font style */
+  font-weight: 200; /* sets the font weight */
+}
+label { /* CSS for labels */
+    font-family: "Nunito", sans-serif; /* Set font family */
+    font-optical-sizing: auto; /* Set font optical sizing */
+    font-style: normal; /* Set font style */
+}
+input, textarea{ /* CSS for input and textarea elements */
+    font-family: "Mulish", sans-serif; /* Set font family */
+    font-optical-sizing: auto; /* Set font optical sizing */
+    font-style: normal; /* Set font style */
+}
+#sexMotherDIV, #supportMotherDIV, #sexLabel{ /* CSS for specific divs and labels */
+    display: flex; /* Set display to flex */
+    align-items: center; /* Align items to center */
+}
+#sexLabel{ /* CSS for sex label */
+    width: 145px; /* Set width */
+    font-family: "Mulish", sans-serif; /* Set font family */
+    font-optical-sizing: auto; /* Set font optical sizing */
+    font-style: normal; /* Set font style */
+}
+#pWord{ /* CSS for paragraph */
+    margin-bottom: 1.5vh; /* Set bottom margin */
+}
+#sexChoices{ /* CSS for sex choices */
+    width: 200px; /* Set width */
+    border: 0.5px rgb(130, 130, 130) solid; /* Set border */
+    margin-right: 0.25vw; /* Set right margin */
+    background-color: rgb(255, 255, 255); /* Set background color */
+    color: rgb(136, 126, 125); /* Set text color */
+}
+#support{ /* CSS for support */
+    margin-right: 0.25vw; /* Set right margin */
+}
+#button{ /* CSS for button */
+    position: relative; /* Set position to relative */
+    margin-top: 3vh; /* Set top margin */
+    width: 8vw; /* Set width */
+    height: 3vh; /* Set height */
+    border-radius: 2vw; /* Set border radius */
+    border: 0; /* Remove border */
+    color: rgb(90, 24, 12); /* Set text color */
+    font-weight: bolder; /* Set font weight */
+    background-color: #E4D6A7; /* Set background color */
+    transition: 1s ease-out; /* Set transition effect */
+}
+#button:hover{ /* CSS for button hover effect */
+    width: 8.5vw; /* Increase width on hover */
+    height: 3.5vh; /* Increase height on hover */
+    font-size: 1.1vw; /* Increase font size on hover */
+    transition: 0.5s ease-in; /* Set transition effect */
+    color: antiquewhite; /* Set text color on hover */
+    background-color: #E9B44C; /* Set background color on hover */
+}
+footer{ /* CSS for footer */
+    background-color: #2E5E60; /* Set background color */
+    color: #E9B44C; /* Set text color */
+    position: absolute; /* Set position to absolute */
+    display: flex; /* Set display to flex */
+    justify-content: space-between; /* Justify content between */
+    align-items: center; /* Align items to center */
+    height: 6vh; /* Set height */
+    width: 100%; /* Set width */
+    bottom: 0; /* Align to bottom */
+    font-family: "Montserrat", sans-serif; /* Set font family */
+    font-optical-sizing: auto; /* Set font optical sizing */
+    font-style: normal; /* Set font style */
+}
+#brandLogo{ /* CSS for brand logo */
+    margin-top: 0.3vh; /* Set top margin */
+    margin-left: 2vw; /* Set left margin */
+}
+#about{ /* CSS for about section */
+    margin-left: 1vw; /* Set left margin */
+}
+#copyright{ /* CSS for copyright */
+    margin-right: 1vw; /* Set right margin */
+}
+#cover{ /* CSS for cover */
+    position: absolute; /* Set position to absolute */
+    background-color: #E9B44C; /* Set background color */
+    height: 60vh; /* Set height */
+    width: 100%; /* Set width */
+    opacity: .70; /* Set opacity */
+}
+#profileSection{ /* CSS for profile section */
+    float: left; /* Float left */
+    position: relative; /* Set position to relative */
+    align-items: center; /* Align items to center */
+    border-radius: 3vw; /* Set border radius */
+    height: 59vh; /* Set height */
+    width: 40vw; /* Set width */
+    margin-left: 7vw; /* Set left margin */
+    margin-top: 15vh; /* Set top margin */
+    background-color: #9B2915; /* Set background color */
+    color: #E9B44C; /* Set text color */
+}
+#smallpic{ /* Selects the element with id 'smallpic' */
+    background-color: gray; /* Sets the background color to gray */
+    position: absolute; /* Sets the position to absolute */
+    left: 3vw; /* Sets the distance from the left edge of the containing element to 3% of the viewport width */
+    top: -9vh; /* Sets the distance from the top edge of the containing element to -9% of the viewport height (moves it above the top) */
+    border-radius: 50%; /* Sets the border radius to 50% to create a circular shape */
+    width: 12vw; /* Sets the width to 12% of the viewport width */
+    height: 24vh; /* Sets the height to 24% of the viewport height */
+    float: left; /* Allows the element to float to the left */
+    z-index: 3; /* Sets the stack order of the element */
+    object-fit: cover; /* Scales the image as large as possible while maintaining its aspect ratio and cropping to fit */
+}
+
+#smallpic img{ /* Selects the img element within the element with id 'smallpic' */
+    width: 100%; /* Sets the width of the image to 100% of its container */
+    height: 100%; /* Sets the height of the image to 100% of its container */
+}
+
+#outputSupport{ /* Selects the element with id 'outputSupport' */
+    float: left; /* Allows the element to float to the left */
+    position: absolute; /* Sets the position to absolute */
+    text-align: left; /* Aligns the text to the left */
+    left: 5vw; /* Sets the distance from the left edge of the containing element to 5% of the viewport width */
+    top: 40vh; /* Sets the distance from the top edge of the containing element to 40% of the viewport height */
+    font-size:large; /* Sets the font size to a larger size */
+    font-family: "Open Sans", sans-serif; /* Specifies the font family */
+    font-weight: 300; /* Sets the font weight to a lighter weight */
+}
+
+#outputLN, #outputFN{ /* Selects elements with id 'outputLN' and 'outputFN' */
+    font-family: "Oswald", sans-serif; /* Specifies the font family */
+    font-size: 2.75vw; /* Sets the font size to 2.75% of the viewport width */
+}
+
+#outputLN{ /* Selects the element with id 'outputLN' */
+    float: right; /* Allows the element to float to the right */
+    position: absolute; /* Sets the position to absolute */
+    top: 7vh; /* Sets the distance from the top edge of the containing element to 7% of the viewport height */
+    left: 17vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
+    text-align: left; /* Aligns the text to the left */
+}
+
+#outputFN{ /* Selects the element with id 'outputFN' */
+    float: right; /* Allows the element to float to the right */
+    position: absolute; /* Sets the position to absolute */
+    top: 13vh; /* Sets the distance from the top edge of the containing element to 13% of the viewport height */
+    left: 17vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
+    text-align: left; /* Aligns the text to the left */
+}
+
+#outputSex{ /* Selects the element with id 'outputSex' */
+    float: right; /* Allows the element to float to the right */
+    position: absolute; /* Sets the position to absolute */
+    top: 22vh; /* Sets the distance from the top edge of the containing element to 22% of the viewport height */
+    left: 17vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
+    text-align: left; /* Aligns the text to the left */
+    font-style: italic; /* Sets the font style to italic */
+    font-family: "Poppins", sans-serif; /* Specifies the font family */
+}
+
+#outputEmail{ /* Selects the element with id 'outputEmail' */
+    float: right; /* Allows the element to float to the right */
+    position: absolute; /* Sets the position to absolute */
+    top: 25vh; /* Sets the distance from the top edge of the containing element to 25% of the viewport height */
+    left: 17vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
+    text-align: left; /* Aligns the text to the left */
+    font-style: italic; /* Sets the font style to italic */
+    text-decoration: underline; /* Underlines the text */
+    font-family: "Poppins", sans-serif; /* Specifies the font family */
+}
+
+#line{ /* Selects the element with id 'line' */
+    position: absolute; /* Sets the position to absolute */
+    left: 4vw; /* Sets the distance from the left edge of the containing element to 4% of the viewport width */
+    top: 38.5vh; /* Sets the distance from the top edge of the containing element to 38.5% of the viewport height */
+    height: 7vh; /* Sets the height to 7% of the viewport height */
+    color: #E4D6A7; /* Sets the color of the line */
+    background-color: #E4D6A7; /* Sets the background color of the line */
+}
+#profileHeader{ /* Styling for profile header */
+    color: #2E5E60; /* Text color */
+    margin-top: 3.5vh; /* Margin from the top */
+    font-weight: 1000; /* Font weight */
+    font-size: 4.5vw; /* Font size */
+}
+#campaign, #mission, #vision{ /* Styling for campaign, mission, and vision elements */
+    font-family: "Roboto", sans-serif; /* Font family */
+}
+#campaignText, #missionText, #visionText{ /* Styling for text of campaign, mission, and vision */
+    font-family: "Roboto Condensed", sans-serif; /* Font family */
+}
+#websiteDetails{ /* Styling for website details */
+    display: flex; /* Set display as flex */
+    flex-direction: column; /* Arrange items in column */
+    position: absolute; /* Positioning as absolute */
+    right: 0; /* Align to the right */
+    z-index: 15; /* Set z-index */
+    text-align: right; /* Align text to the right */
+    margin-right: 3vw; /* Margin from the right */
+    width: 45vw; /* Set width */
+}
+#campaign{ /* Styling for campaign */
+    color: #2E5E60; /* Text color */
+    font-weight: bold; /* Font weight */
+    margin-top: 1vh; /* Margin from the top */
+}
+#campaignText{ /* Styling for campaign text */
+    color: #2E5E60; /* Text color */
+}
+#mission{ /* Styling for mission */
+    color: #9B2915; /* Text color */
+    font-weight: bold; /* Font weight */
+    margin-top: 4.5vh; /* Margin from the top */
+}
+#missionText{ /* Styling for mission text */
+    color: #9B2915; /* Text color */
+}
+#vision{ /* Styling for vision */
+    color: #E9B44C; /* Text color */
+    font-weight: bold; /* Font weight */
+    margin-top: 5vh; /* Margin from the top */
+}
+#visionText{ /* Styling for vision text */
+    color: #E9B44C; /* Text color */
+}

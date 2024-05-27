@@ -99,11 +99,17 @@ header{ /* Header styles */
   object-fit: cover; /* ensures that the image fits perfectly within its container */
   overflow: hidden; /* hides any overflowing content */
   box-shadow: 8px 8px 4px lightcyan; /* adds a shadow to the container */
-}
-#sidePicDIV img{
-  /* styles for the side picture image */
-  width: 100%;
-  height: 100%;
+    background-image: url("asidePic.png");
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    color: white;
+    font-style: oblique;
 }
 #logoDIV{
   /* styles for the logo container */
@@ -293,7 +299,7 @@ footer{ /* CSS for footer */
     float: right; /* Allows the element to float to the right */
     position: absolute; /* Sets the position to absolute */
     top: 7vh; /* Sets the distance from the top edge of the containing element to 7% of the viewport height */
-    left: 17vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
+    left: 16vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
     text-align: left; /* Aligns the text to the left */
 }
 
@@ -301,7 +307,7 @@ footer{ /* CSS for footer */
     float: right; /* Allows the element to float to the right */
     position: absolute; /* Sets the position to absolute */
     top: 13vh; /* Sets the distance from the top edge of the containing element to 13% of the viewport height */
-    left: 17vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
+    left: 16vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
     text-align: left; /* Aligns the text to the left */
 }
 
@@ -309,7 +315,7 @@ footer{ /* CSS for footer */
     float: right; /* Allows the element to float to the right */
     position: absolute; /* Sets the position to absolute */
     top: 22vh; /* Sets the distance from the top edge of the containing element to 22% of the viewport height */
-    left: 17vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
+    left: 16vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
     text-align: left; /* Aligns the text to the left */
     font-style: italic; /* Sets the font style to italic */
     font-family: "Poppins", sans-serif; /* Specifies the font family */
@@ -319,7 +325,7 @@ footer{ /* CSS for footer */
     float: right; /* Allows the element to float to the right */
     position: absolute; /* Sets the position to absolute */
     top: 25vh; /* Sets the distance from the top edge of the containing element to 25% of the viewport height */
-    left: 17vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
+    left: 16vw; /* Sets the distance from the left edge of the containing element to 17% of the viewport width */
     text-align: left; /* Aligns the text to the left */
     font-style: italic; /* Sets the font style to italic */
     text-decoration: underline; /* Underlines the text */

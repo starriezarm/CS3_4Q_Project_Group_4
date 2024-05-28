@@ -90,7 +90,7 @@ header{ /* Header styles */
   box-shadow: 8px 8px 4px lightcyan; /* adds a shadow to the container */
 }
 
-#sidePicDIV{
+#sidePicDIV {
   /* styles for the side picture container */
   border-radius: 1vw; /* gives the container rounded corners */
   width: 32vw;
@@ -99,17 +99,18 @@ header{ /* Header styles */
   object-fit: cover; /* ensures that the image fits perfectly within its container */
   overflow: hidden; /* hides any overflowing content */
   box-shadow: 8px 8px 4px lightcyan; /* adds a shadow to the container */
-    background-image: url("asidePic.png");
-    text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    letter-spacing: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: end;
-    color: white;
-    font-style: oblique;
+  background-image: url("asidePic.png");
+  background-size: cover; /* ensure the image covers the entire div */
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: end;
+  color: white;
+  font-style: oblique;
 }
 #logoDIV{
   /* styles for the logo container */

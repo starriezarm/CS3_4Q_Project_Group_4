@@ -99,7 +99,7 @@ header{ /* Header styles */
   object-fit: cover; /* ensures that the image fits perfectly within its container */
   overflow: hidden; /* hides any overflowing content */
   box-shadow: 8px 8px 4px lightcyan; /* adds a shadow to the container */
-    background-image: url("..//asidePic.png");
+    background-image: url("../asidePic.png");
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
